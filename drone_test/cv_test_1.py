@@ -5,7 +5,7 @@ import cv2
 import numpy as np
 import time
 
-model = YOLO("yolov10n.pt")
+model = YOLO("./drone_sheep.pt")
 ara = mavutil.mavlink_connection('udpin:10.1.90.114:15550')
 window = gw.getWindowsWithTitle("title")[0]
 
